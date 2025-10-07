@@ -1,0 +1,140 @@
+/* Style CSS pour la mise en page */
+.navbar {
+    background-color: #FEFDED;
+    overflow: hidden;
+    width: 100%; /* Assure que la barre occupe toute la largeur */
+    border: none; /* Supprime les bords */
+    padding: 0; /* Supprime le padding interne de la barre */
+    margin: 0; /* Supprime les marges autour de la barre */
+    position: fixed; /* Fixe la barre en haut de la page */
+    top: 0; /* Positionne la barre tout en haut */
+    left: 0; 
+    right: 0;
+    height: 150px;
+}
+
+div.content {
+    padding-top: 150px; /* Même hauteur que la barre de navigation */
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    float: left;
+    padding-left: 20px;
+}
+
+.navbar li a {
+    display: block;
+    color: #A1C398;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #FDF8E1;
+}
+/* Styles pour le contenu principal */
+.content {
+    padding: 20px;
+}
+
+nav.align-right { 
+    text-align: right;
+    padding-right: 20px;
+ }
+
+nav.align-right>a.rounded-box {
+    border: 5px solid #FA7070;
+    border-radius: 15px;
+    color: white;
+    background-color: #FA7070;
+    text-decoration: none;
+}
+
+nav.align-right>a.rounded-box:hover {
+    border: 5px solid #D14242;
+    background-color: #D14242;
+}
+
+div.search-container { 
+    text-align: right;
+    padding-right: 20px;
+}
+div input {
+    border: 5px solid white;
+    border-radius: 15px;
+}
+
+button.rounded-box {
+    border: 5px solid #A1C398;
+    border-radius: 15px;
+    color: white;
+    background-color: #A1C398;
+}
+
+button.rounded-box:hover {
+    border: 5px solid #8BA776;
+    background-color: #8BA776;
+}
+body {
+    background-color: #C6EBC5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+h1 {
+    text-align: center;
+}
+.profile-info {
+    margin-bottom: 20px;
+}
+.profile-info label {
+    font-weight: bold;
+}
+.profile-info input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+.profile-info textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    float: right;
+} 
+
+h1 {
+    text-align: center;
+    color: #FA7070;
+}
